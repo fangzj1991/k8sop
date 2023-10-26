@@ -1,0 +1,16 @@
+apiVersion: apps.markfang.cn/v1
+kind: Application
+metadata:
+  namespace: default
+  labels:
+    app: test2
+  name: test2
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+          ports:
+           - containerPort: 80
