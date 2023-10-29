@@ -11,3 +11,5 @@ Controller
 
 `make docker-build IMG=app-op:v0.1`  
 `make deploy IMG=zhfangtest1991.azurecr.io/app-op`
+
+`export PATH=$PATH:/usr/local/go/bin`
